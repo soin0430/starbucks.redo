@@ -61,6 +61,11 @@ header {
   display: table;
   clear: both;
 }
+
+row {
+  padding-bottom: 20px;
+}
+
 column {
   float: left;
   padding: 10px;
