@@ -1,0 +1,71 @@
+/* CSS files add styling rules to your content */
+
+body {
+  
+  padding-right: 200px;
+  padding-left: 200px;
+  
+  margin: 3em;
+  text-align: center;
+  background: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+.header img {
+  float: left;
+  width: 10%;
+  
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+.section{
+  padding-top: 96px;
+  padding-bottom: 140px;
+}
+
+.card {
+  padding-right: 30px;
+    padding-left: 30px;
+  
+    
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px;) {
+  .column {
+    width: 100%;
+  }
+}
+  @media screen and (max-width: 600px) {
+  ul. li.right, 
+  ul. li {float: none;}
+}
+
+box-sizing: content-box;
+width: 100%;
